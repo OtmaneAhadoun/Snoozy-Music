@@ -7,7 +7,7 @@ function library(props) {
     <motion.div className='library'>
         <BrowserRouter>
         <div className="fixed">
-            <NavLink to=''><i class="fa-solid fa-arrow-left" onClick={()=>{props.bool(false)}}></i></NavLink>
+            <i class="fa-solid fa-arrow-left" onClick={()=>{props.bool(false)}}></i>
             <div className="links">
                 <div className="one">
                     <NavLink to='/'>Liked music</NavLink>
