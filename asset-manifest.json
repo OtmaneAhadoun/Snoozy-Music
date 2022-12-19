@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/Snoozy-Music/static/js/main.e5ac8e7a.js",
+    "main.js": "/Snoozy-Music/static/js/main.aa3930c1.js",
     "index.html": "/Snoozy-Music/index.html",
-    "main.e5ac8e7a.js.map": "/Snoozy-Music/static/js/main.e5ac8e7a.js.map"
+    "main.aa3930c1.js.map": "/Snoozy-Music/static/js/main.aa3930c1.js.map"
   },
   "entrypoints": [
-    "static/js/main.e5ac8e7a.js"
+    "static/js/main.aa3930c1.js"
   ]
 }
