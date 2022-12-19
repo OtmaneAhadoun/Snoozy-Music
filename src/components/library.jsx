@@ -10,26 +10,26 @@ function library(props) {
             <NavLink to='Snoozy-Music/'><i class="fa-solid fa-arrow-left" onClick={()=>{props.bool(false)}}></i></NavLink>
             <div className="links">
                 <div className="one">
-                    <NavLink to='/'>Liked music</NavLink>
+                    <NavLink to='Snoozy-Music/music'>Liked music</NavLink>
                 </div>
                 <div className="one">
-                    <NavLink to='artiste'>artiste</NavLink>
+                    <NavLink to='Snoozy-Music/artiste'>artiste</NavLink>
                 </div>
                 <div className="one">
-                    <NavLink to='albums'>albums</NavLink>
+                    <NavLink to='Snoozy-Music/albums'>albums</NavLink>
                 </div>
                 <div className="one">
-                    <NavLink to='playlist'>playlist</NavLink>
+                    <NavLink to='Snoozy-Music/playlist'>playlist</NavLink>
                 </div>
             </div>
         </div>
         
         <div className="notfixed">
           <Routes>
-            <Route path='/' element={<Cartcomp data={props.value}/> }></Route>
-            <Route path='artiste' element={<Cartcomp data={props.value}/> }></Route>
-            <Route path='albums' element={<Cartcomp data={props.value}/> }></Route>
-            <Route path='playlist' element={<Cartcomp data={props.value}/> }></Route>
+            <Route path='Snoozy-Music/music' element={<Cartcomp data={props.value}/> }></Route>
+            <Route path='Snoozy-Music/artiste' element={<Cartcomp data={props.value}/> }></Route>
+            <Route path='Snoozy-Music/albums' element={<Cartcomp data={props.value}/> }></Route>
+            <Route path='Snoozy-Music/playlist' element={<Cartcomp data={props.value}/> }></Route>
           </Routes>
         </div>
         </BrowserRouter>
