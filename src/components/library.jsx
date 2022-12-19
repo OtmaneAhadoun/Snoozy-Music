@@ -10,7 +10,7 @@ function library(props) {
             <NavLink to='Snoozy-Music/'><i class="fa-solid fa-arrow-left" onClick={()=>{props.bool(false)}}></i></NavLink>
             <div className="links">
                 <div className="one">
-                    <NavLink to='Snoozy-Music/music'>Liked music</NavLink>
+                    <NavLink to='Snoozy-Music/'>Liked music</NavLink>
                 </div>
                 <div className="one">
                     <NavLink to='Snoozy-Music/artiste'>artiste</NavLink>
@@ -26,7 +26,7 @@ function library(props) {
         
         <div className="notfixed">
           <Routes>
-            <Route path='Snoozy-Music/music' element={<Cartcomp data={props.value}/> }></Route>
+            <Route path='Snoozy-Music/' element={<Cartcomp data={props.value}/> }></Route>
             <Route path='Snoozy-Music/artiste' element={<Cartcomp data={props.value}/> }></Route>
             <Route path='Snoozy-Music/albums' element={<Cartcomp data={props.value}/> }></Route>
             <Route path='Snoozy-Music/playlist' element={<Cartcomp data={props.value}/> }></Route>
